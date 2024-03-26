@@ -37,7 +37,7 @@ struct mmobDonationView: UIViewRepresentable {
     }
 
     func updateUIView(_ uiView: MmobClientView, context: Context) {
-        print("update UI")
+        print("update UIIII")
 
     }
     
