@@ -13,9 +13,9 @@ struct ContentView: View {
     var body: some View {
         //Top and bottom homescreen
         ZStack {
-            Image("background3")
+            /*Image("background3")
                 .resizable()
-                .ignoresSafeArea()
+                .ignoresSafeArea()*/
             
             VStack {
                 Image("homescreenTop")
@@ -53,11 +53,11 @@ struct ContentView: View {
                     }
                   
                    
-                    /*Button {
+                    Button {
                         more()
                     } label: {
                         Image("moreButton2")
-                    }*/
+                    }
                     Spacer()
                 }
                 Spacer()

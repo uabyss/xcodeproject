@@ -12,7 +12,7 @@
 		443C11412BB17CCD0066C6C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443C11402BB17CCD0066C6C1 /* Assets.xcassets */; };
 		443C11442BB17CCD0066C6C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443C11432BB17CCD0066C6C1 /* Preview Assets.xcassets */; };
 		443C114C2BB17FEE0066C6C1 /* MmobClient in Frameworks */ = {isa = PBXBuildFile; productRef = 443C114B2BB17FEE0066C6C1 /* MmobClient */; };
-		443C114E2BB180300066C6C1 /* mmobClientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443C114D2BB1802F0066C6C1 /* mmobClientView.swift */; };
+		443C114E2BB180300066C6C1 /* mmobDonationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443C114D2BB1802F0066C6C1 /* mmobDonationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +21,7 @@
 		443C113E2BB17CCA0066C6C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		443C11402BB17CCD0066C6C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		443C11432BB17CCD0066C6C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		443C114D2BB1802F0066C6C1 /* mmobClientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmobClientView.swift; sourceTree = "<group>"; };
+		443C114D2BB1802F0066C6C1 /* mmobDonationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmobDonationView.swift; sourceTree = "<group>"; };
 		44881EE62BB2B32A00D9BC69 /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,7 +59,7 @@
 			children = (
 				443C113C2BB17CCA0066C6C1 /* CIMB_Demo_CPApp.swift */,
 				443C113E2BB17CCA0066C6C1 /* ContentView.swift */,
-				443C114D2BB1802F0066C6C1 /* mmobClientView.swift */,
+				443C114D2BB1802F0066C6C1 /* mmobDonationView.swift */,
 				443C11402BB17CCD0066C6C1 /* Assets.xcassets */,
 				443C11422BB17CCD0066C6C1 /* Preview Content */,
 			);
@@ -151,7 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				443C113F2BB17CCA0066C6C1 /* ContentView.swift in Sources */,
-				443C114E2BB180300066C6C1 /* mmobClientView.swift in Sources */,
+				443C114E2BB180300066C6C1 /* mmobDonationView.swift in Sources */,
 				443C113D2BB17CCA0066C6C1 /* CIMB_Demo_CPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
