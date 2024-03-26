@@ -17,8 +17,8 @@ struct mmobDonationView: UIViewRepresentable {
     func makeUIView(context: Context) -> MmobClientView  {
         let configuration = MmobIntegration(
           configuration: MmobIntegrationConfiguration(
-            cp_id: "cp_TMaiVSyyzBx2rZqF-PqdY",
-            integration_id: "cpd_H0MqYDq5WwVRNRS30gznC",
+            cp_id: "cp_prD8VAN6BlhJRha-hsVZx",
+            integration_id: "cpd_pKBixfPPgSKOgsN6pD8-V",
             environment: "stag" //  "stag" or "prod", defaults to "prod"
           ),
           customer: MmobCustomerInfo(
