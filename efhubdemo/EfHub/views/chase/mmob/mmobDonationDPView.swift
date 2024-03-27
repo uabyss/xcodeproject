@@ -9,7 +9,7 @@ import SwiftUI
 import MmobClient
 
 struct mmobDonationDPView: UIViewRepresentable {
-    
+  //new comment
     @AppStorage("instance_domain") var instance_domain: String = "mmob"
     let client = MmobClient()
     
