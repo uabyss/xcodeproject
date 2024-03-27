@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var showingDonation = false
-    
+    //making a new comment
     var body: some View {
         //Top and bottom homescreen
         ZStack {
