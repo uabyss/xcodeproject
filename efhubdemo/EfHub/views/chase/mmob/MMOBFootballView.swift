@@ -18,7 +18,7 @@ struct mmobFootballView: UIViewRepresentable {
         let configuration = MmobIntegration(
           configuration: MmobIntegrationConfiguration(
             cp_id: "cp_TMaiVSyyzBx2rZqF-PqdY",
-            integration_id: "cpd_wtHAOande61DVf966PJTM",
+            integration_id: "cpd_26Qx3nnFGK_dx0a6cziYL",
             environment: "stag" //  "stag" or "prod", defaults to "prod"
           ),
           customer: MmobCustomerInfo(

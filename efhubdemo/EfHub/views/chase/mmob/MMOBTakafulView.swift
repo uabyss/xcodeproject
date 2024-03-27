@@ -18,7 +18,7 @@ struct mmobTakafulView: UIViewRepresentable {
         let configuration = MmobIntegration(
           configuration: MmobIntegrationConfiguration(
             cp_id: "cp_TMaiVSyyzBx2rZqF-PqdY",
-            integration_id: "cpd_TucSAMNkqjPMWL-IfJD-q",
+            integration_id: "cpd_IlphL1mg5eA-50z2vF3LX",
             environment: "stag" //  "stag" or "prod", defaults to "prod"
           ),
           customer: MmobCustomerInfo(

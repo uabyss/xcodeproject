@@ -18,7 +18,7 @@ struct mmobWealthView: UIViewRepresentable {
         let configuration = MmobIntegration(
           configuration: MmobIntegrationConfiguration(
             cp_id: "cp_TMaiVSyyzBx2rZqF-PqdY",
-            integration_id: "cpd_GOe8JS90YVvoVoVo-Yc3B",
+            integration_id: "cpd_5qhxuYoI6mBm7FeEkEEEY",
             environment: "stag" //  "stag" or "prod", defaults to "prod"
           ),
           customer: MmobCustomerInfo(

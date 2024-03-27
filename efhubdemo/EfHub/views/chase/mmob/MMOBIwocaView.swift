@@ -8,79 +8,83 @@
 import SwiftUI
 
 struct MMOBIwocaView: View {
-    @State private var showingDonation = false
-    @State private var showingFinancing = false
-    
+    @State private var showingDonationDP = false
+    //making a new comment
     var body: some View {
         //Top and bottom homescreen
         ZStack {
-            Image("background-red2")
+            Image("background3")
                 .resizable()
                 .ignoresSafeArea()
             
             VStack {
-                Image("homescreentop2")
+                Image("homescreenTop 1")
                    .resizable()
                     
-                    .frame(width: 400.0, height: 390)
+                    .frame(width: 400.0, height: 250)
                     .padding(.bottom, 0.0)
-
-                HStack (alignment: .center, spacing: 15)
-                // alignment. center centers the tabs, spacing puts spacing between each of the buttons
-                {
-                   // Spacer()
-                    Button(action: {showingDonation.toggle() }) {
-                                    Image("dermabutton")
-                        //^ this ties it to the image
-                                }
-                                .sheet(isPresented: $showingDonation) {
-                                    mmobDonationDPView()
-                                }
-                    Button(action: {showingFinancing.toggle() }) {
-                        //showingDonation is a function that opens the webview using .toggle().
-                                    Image("cardButton")
-                                }
-                                .sheet(isPresented: $showingFinancing) {
-                                    mmobCreditCardDPView()
-                                }
-                    Button {
-                        doctor()
-                    } label: {
-                        Image("doctorButton")
-                    
+                 //Spacer()
+                HStack (alignment: .center, spacing: 18) {
+                 
+                    //Donation
+                    Spacer()
+                    Button(action: {showingDonationDP.toggle()}) {
+                        Image("donationButton3")
                     }
-
+                        
+                  
+                    .sheet(isPresented: $showingDonationDP) {
+                      mmobDonationDPView()
+                    }
+                   
+                    
+                    Button {
+                        financing()
+                    } label: {
+                        Image("financingButton2")
+                    }
+                   
+                   
+                    Button {
+                        transfer()
+                    } label: {
+                        Image("transferButton2")
+                            
+                    }
+                  
+                   
                     Button {
                         more()
                     } label: {
-                        Image("moreButton")
+                        Image("moreButton2")
                     }
-                   // Spacer()
+                    Spacer()
                 }
-                //Spacer()
+                Spacer()
                 
-                Image("homescreenbottom")
+                Image("homescreenBottom 1")
                     .resizable()
-                    .frame(width: 400.0, height: 250)
-                    .padding(.top, 0.0)
+                    .frame(width: 400.0, height: 350)
+                    .padding(.top, -30.0)
+                    .padding(/*@START_MENU_TOKEN@*/.bottom, 30.0/*@END_MENU_TOKEN@*/)
+                
+                
                 
             }
         }
         
         
     }
-    //function donation
-    func donation () {
-        print("Donation Journey")
-    }
+
+    
     //function financing
     func financing () {
         print("Financing Journey")
     }
     
     //function doctor
-    func doctor () {
-        print("Empty Doctor Journey")
+    func transfer () {
+        print("Empty Transfer Journey")
     }
     
     //function More
@@ -96,6 +100,3 @@ struct MMOBIwocaView_Previews: PreviewProvider {
         MMOBIwocaView()
     }
 }
-
-
-
